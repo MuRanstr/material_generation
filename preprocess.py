@@ -81,9 +81,9 @@ if __name__ == "__main__":
     TEST_CIF_PATH = "./generated_cifs/generated_structure_15atoms.cif"
     
     if not os.path.exists(TEST_CIF_PATH):
-        print(f"❌ 错误：未找到测试文件 {TEST_CIF_PATH}。请先运行 generate.py 生成该文件。")
+        print(f"错误：未找到测试文件 {TEST_CIF_PATH}。请先运行 generate.py 生成该文件。")
     else:
-        print(f"✅ 找到测试文件 {TEST_CIF_PATH}，开始转换...")
+        print(f"找到测试文件 {TEST_CIF_PATH}，开始转换...")
         
         # 转换
         training_sample = cif_to_training_data(TEST_CIF_PATH, t=500.0)
@@ -106,4 +106,4 @@ if __name__ == "__main__":
         cell_update_norm = training_sample.target_cell_update.norm().item()
         print(f"目标晶格更新的 L2 范数: {cell_update_norm:.4f}")
         
-        print("\n✅ 转换成功，该对象可直接用于 train.py 中的训练循环。")
+        print("\n转换成功，该对象可直接用于 train.py 中的训练循环。")

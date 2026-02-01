@@ -28,8 +28,6 @@ def custom_evaluate_material(cif_path: str):
         structure = Structure.from_file(cif_path)
         her_result = generator.her_predictor.predict_her_comprehensive(structure)
         # 提取 HER ΔG (eV)
-        # 脚本中的 e_h_adsorption_ev 对应于 H 吸附能，是计算 HER ΔG 的核心
-        # 由于 predict_her_comprehensive 内部已经调用了 co2rr，我们直接从 co2rr_result 中获取
         her_delta_g = her_result['co2rr_result'].get('e_h_adsorption_ev', None)
 
     except Exception as e:
@@ -43,7 +41,6 @@ def custom_evaluate_material(cif_path: str):
     stability_score = 1 - hull_energy / 0.5
 
     # 5. 判断是否通过筛选
-    # 筛选条件：hull_energy < 1.0, formation_energy < 1.0, num_elements <= 4, 2d_score >= 0.3
     passed_screening = (
             (original_df.iloc[0]['hull_energy'] < generator.stability_criteria['hull_energy_threshold']) and
             (original_df.iloc[0]['formation_energy'] < generator.stability_criteria['formation_energy_threshold']) and

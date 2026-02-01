@@ -85,10 +85,10 @@ def train_mattergen(model: SimpleMatterGen, dataloader: DataLoader, num_epochs: 
     # 保存损失历史
     with open("models/loss_history.json", "w") as f:
         json.dump(loss_history, f, indent=4)
-    print("✅ 扩散模型训练损失历史已保存至 loss_history.json")
+    print("扩散模型训练损失历史已保存至 loss_history.json")
 
     torch.save(model.state_dict(), "models/mattergen_model.pth")
-    print("✅ 模型权重已保存至 mattergen_model.pth")
+    print("模型权重已保存至 mattergen_model.pth")
 
 
 
@@ -97,14 +97,14 @@ if __name__ == "__main__":
     CIF_DATA_DIR = "data"
 
     if not os.path.exists(CIF_DATA_DIR) or not glob.glob(os.path.join(CIF_DATA_DIR, "*.cif")):
-        print(f"❌ 错误：未找到 CIF 文件。请将您的 CIF 文件放入 {CIF_DATA_DIR} 目录。")
+        print(f"错误：未找到 CIF 文件。请将您的 CIF 文件放入 {CIF_DATA_DIR} 目录。")
         import sys
 
         sys.exit(1)
 
     dataset = CrystalDataset(root_dir=CIF_DATA_DIR)
     dataloader = DataLoader(dataset, batch_size=4, shuffle=True, collate_fn=collate_fn)
-    print(f"✅ 成功创建 DataLoader，包含 {len(dataset)} 个样本。")
+    print(f"成功创建 DataLoader，包含 {len(dataset)} 个样本。")
 
     # 演示目的，运行较少 epoch
     train_mattergen(model, dataloader, num_epochs=20, lr=1e-3)

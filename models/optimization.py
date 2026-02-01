@@ -7,8 +7,6 @@ import os
 import glob
 import json
 from typing import List, Dict, Tuple
-
-# 导入原有模块
 from project.models.diffusion_model import SimpleMatterGen
 from project.data_utils import SimpleCrystalData
 from project.dataset.material_dataset import CrystalDataset
@@ -17,19 +15,14 @@ from project.generate_stable_materials import Structure
 
 
 class ValueNetwork(nn.Module):
-    """
-    状态价值网络 (Critic)，用于预测当前晶体状态的预期奖励（Value Estimation）。
-    """
-
     def __init__(self, hidden_dim: int):
         super().__init__()
-        # 独立的时间步编码器，避免与 Actor 共享参数导致梯度冲突
         self.t_encoder = nn.Sequential(
             nn.Linear(1, hidden_dim),
             nn.SiLU(),
             nn.Linear(hidden_dim, hidden_dim)
         )
-        # 独立的特征提取层
+        # 特征提取层
         self.atom_mlp = nn.Sequential(
             nn.Linear(hidden_dim, hidden_dim),
             nn.SiLU(),
@@ -51,7 +44,6 @@ class ValueNetwork(nn.Module):
         h = atom_features * t_per_atom
         h = self.atom_mlp(h)
 
-        # 聚合到晶体级别特征 (Pooling)
         h_crystal = torch.zeros(x.cell.shape[0], self.hidden_dim, device=x.pos.device).index_add_(
             0, x.batch, h
         )
@@ -60,10 +52,6 @@ class ValueNetwork(nn.Module):
 
 
 class PPOOptimizer:
-    """
-    改进后的 PPO 优化器，符合标准的强化学习流程。
-    """
-
     def __init__(
             self,
             model: SimpleMatterGen,
@@ -262,7 +250,7 @@ def finetune_rl():
     model = SimpleMatterGen(hidden_dim=128)
     if os.path.exists("mattergen_model.pth"):
         model.load_state_dict(torch.load("mattergen_model.pth"))
-        print("✅ 已加载预训练权重。")
+        print("已加载预训练权重。")
 
     ppo = PPOOptimizer(model)
     dataset_dir = "../data"
@@ -308,10 +296,10 @@ def finetune_rl():
     # 保存训练历史
     with open("rl_training_history.json", "w") as f:
         json.dump(loss_history, f, indent=4)
-    print("✅ 训练历史已保存至 rl_training_history.json")
+    print("训练历史已保存至 rl_training_history.json")
 
     torch.save(model.state_dict(), "mattergen_model_rl_tuned.pth")
-    print("\n✅ 标准 RL 微调完成，模型已保存至 mattergen_model_rl_tuned.pth")
+    print("\n标准 RL 微调完成，模型已保存至 mattergen_model_rl_tuned.pth")
 
 
 if __name__ == "__main__":

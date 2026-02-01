@@ -4,9 +4,6 @@ from dataclasses import dataclass
 
 @dataclass
 class SimpleCrystalData:
-    """
-    模拟 MatterGen 的核心输入数据结构，包含联合表示的三个部分。
-    """
     pos: torch.Tensor          # 原子分数坐标 (N_atoms, 3)
     cell: torch.Tensor         # 晶格矩阵 (N_crystals, 3, 3)
     atomic_numbers: torch.Tensor # 原子类型 (N_atoms,)

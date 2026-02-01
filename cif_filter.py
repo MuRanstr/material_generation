@@ -4,9 +4,6 @@ import sys
 import shutil
 
 
-# 本文件为生成材料过滤器，选取deltaG不为NaN的文件
-
-# 将当前目录添加到路径，以便导入项目模块
 sys.path.append(str(Path(__file__).parent))
 
 try:
@@ -67,13 +64,6 @@ def filter_generated_cifs(input_dirs, output_count=10, output_cif_dir="filtered_
                         'formation_energy': row['formation_energy'],
                         '2d_score': row['2d_score']
                     })
-
-                    # --- 修改部分：保存为 CIF 文件 ---
-                    # 方式 A: 如果 Structure 对象支持 .to() 方法 (常见于 pymatgen)
-                    # target_file = output_path / cif_path.name
-                    # structure.to(filename=str(target_file), fmt="cif")
-
-                    # 方式 B: 直接复制原始 CIF 文件到目标目录 (最稳妥，保留原始格式)
                     target_file = output_path / cif_path.name
                     shutil.copy(cif_path, target_file)
 

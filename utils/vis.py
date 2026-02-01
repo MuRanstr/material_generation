@@ -4,8 +4,6 @@ import glob
 import matplotlib.pyplot as plt
 import io
 from contextlib import redirect_stdout
-
-# 导入评估函数
 from geo_utils import custom_evaluate_material
 
 
@@ -14,7 +12,7 @@ def plot_diffusion_training_loss(history_path="../models/loss_history.json"):
     1. 绘制扩散模型的训练损失图
     """
     if not os.path.exists(history_path):
-        print(f"⚠️ 未找到 {history_path}，跳过扩散模型损失绘图。")
+        print(f"⚠未找到 {history_path}，跳过扩散模型损失绘图。")
         return
 
     with open(history_path, "r") as f:
@@ -35,12 +33,12 @@ def plot_diffusion_training_loss(history_path="../models/loss_history.json"):
     plt.title("Diffusion Model Training Loss History")
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
-    plt.yscale("log")  # 使用对数刻度以便观察细节
+    plt.yscale("log")
     plt.legend()
     plt.grid(True, which="both", ls="-", alpha=0.3)
 
     plt.savefig("../results/loss_curve.png")
-    print("✅ 扩散模型训练损失图已保存至 loss_curve.png")
+    print("扩散模型训练损失图已保存至 loss_curve.png")
 
 
 def plot_rl_training_results(history_path="../models/rl_training_history.json"):
@@ -48,7 +46,7 @@ def plot_rl_training_results(history_path="../models/rl_training_history.json"):
     2. 绘制强化学习的训练损失和奖励趋势
     """
     if not os.path.exists(history_path):
-        print(f"⚠️ 未找到 {history_path}，跳过 RL 训练图。")
+        print(f"⚠未找到 {history_path}，跳过 RL 训练图。")
         return
 
     with open(history_path, "r") as f:
@@ -81,7 +79,7 @@ def plot_rl_training_results(history_path="../models/rl_training_history.json"):
     plt.grid(True, alpha=0.3)
 
     plt.savefig("../results/rl_loss_curve.png")
-    print("✅ 强化学习训练进度图已保存至 rl_loss_curve.png")
+    print("强化学习训练进度图已保存至 rl_loss_curve.png")
 
 
 def collect_and_plot_distributions(cif_dir="generated_cifs"):
@@ -90,7 +88,7 @@ def collect_and_plot_distributions(cif_dir="generated_cifs"):
     """
     cif_files = glob.glob(os.path.join(cif_dir, "*.cif"))
     if not cif_files:
-        print(f"⚠️ 在 {cif_dir} 中未找到 CIF 文件，跳过分布图。")
+        print(f"在 {cif_dir} 中未找到 CIF 文件，跳过分布图。")
         return
 
     print(f"开始评估 {len(cif_files)} 个晶体结构以获取性能分布...")
@@ -128,7 +126,7 @@ def collect_and_plot_distributions(cif_dir="generated_cifs"):
         plt.legend()
         plt.grid(axis='y', alpha=0.3)
         plt.savefig("../results/her_performance.png")
-        print(f"✅ deltaG 分布图已保存至 her_performance.png")
+        print(f"deltaG 分布图已保存至 her_performance.png")
 
     if stabilities:
         plt.figure(figsize=(10, 6))
@@ -140,7 +138,7 @@ def collect_and_plot_distributions(cif_dir="generated_cifs"):
         plt.legend()
         plt.grid(axis='y', alpha=0.3)
         plt.savefig("../results/stability_curve.png")
-        print(f"✅ stability 分布图已保存至 stability_curve.png")
+        print(f"stability 分布图已保存至 stability_curve.png")
 
 
 if __name__ == "__main__":

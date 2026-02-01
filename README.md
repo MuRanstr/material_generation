@@ -80,6 +80,8 @@ projects
 ==============================
 
 总对比
-Method              Avg HER ΔG (eV)    Stability Score   Synthesis Success Rate
-baseline            -0.1500 eV             0.5416              0.4800
-Ours                -0.0410 eV             0.6072              0.5350
+
+| Method   | Avg HER ΔG (eV) | Stability Score | Synthesis Success Rate |
+|----------|-----------------|-----------------|------------------------|
+| baseline | -0.1500 eV      | 0.5416          | 0.4800                 |
+| Ours     | -0.0410 eV      | 0.6072          | 0.5350                 |

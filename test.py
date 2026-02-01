@@ -7,9 +7,7 @@ import os
 from project.models.diffusion_model import SimpleMatterGen
 from data_utils import SimpleCrystalData
 
-# ----------------------------------------------------------------------
-# 采样器 (Sampler) - 模拟 MatterGen 的生成过程
-# ----------------------------------------------------------------------
+
 def generate_structure(model: SimpleMatterGen, num_atoms: int, num_steps: int = 100, output_dir: str = "./generated_cifs", index: int = 0) -> Tuple[Structure, str]:
     """
     从随机噪声开始，迭代生成一个晶体结构。
@@ -35,7 +33,7 @@ def generate_structure(model: SimpleMatterGen, num_atoms: int, num_steps: int = 
         with torch.no_grad():
             predictions = model(current_data, t)
         
-        # 更新结构 (极度简化：直接应用预测的“去噪量”)
+        # 更新结构
         step_size = 0.01
         current_data.pos = (current_data.pos + predictions["coord_update"] * step_size) % 1.0
         
@@ -72,9 +70,7 @@ def generate_structure(model: SimpleMatterGen, num_atoms: int, num_steps: int = 
     
     return structure, cif_path
 
-# ----------------------------------------------------------------------
-# 主运行逻辑
-# ----------------------------------------------------------------------
+
 if __name__ == "__main__":
     # 1. 创建模型并加载训练好的权重
     model = SimpleMatterGen(hidden_dim=128)
@@ -82,9 +78,9 @@ if __name__ == "__main__":
     # 尝试加载权重，如果不存在则使用随机权重
     try:
         model.load_state_dict(torch.load("models/mattergen_model_rl_tuned.pth"))
-        print("✅ 成功加载训练好的模型权重。")
+        print("成功加载训练好的模型权重。")
     except FileNotFoundError:
-        print("⚠️ 未找到 mattergen_model.pth，将使用随机初始化的模型进行生成。请先运行 train.py 进行训练。")
+        print("未找到 mattergen_model.pth，将使用随机初始化的模型进行生成。请先运行 train.py 进行训练。")
     
     model.eval()
     
@@ -102,8 +98,8 @@ if __name__ == "__main__":
             num_atoms = torch.randint(4, 13, (1,)).item()
             structure, cif_path = generate_structure(model, num_atoms=num_atoms, num_steps=100, output_dir=OUTPUT_DIR, index=i)
             generated_files.append(cif_path)
-            print(f"✅ 结构 #{i} 已保存: {cif_path} (化学式: {structure.formula})")
+            print(f"结构 #{i} 已保存: {cif_path} (化学式: {structure.formula})")
         except Exception as e:
-            print(f"❌ 生成结构 #{i} 时发生错误: {e}")
+            print(f"生成结构 #{i} 时发生错误: {e}")
             
     print(f"\n批量生成完成，共生成 {len(generated_files)} 个 CIF 文件。")
