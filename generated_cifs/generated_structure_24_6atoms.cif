@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CsNaEuSiAsO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   67.90252365
+_cell_length_b   47.84884275
+_cell_length_c   15.26168728
+_cell_angle_alpha   80.16741026
+_cell_angle_beta   75.01250735
+_cell_angle_gamma   75.53061307
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsNaEuSiAsO
+_chemical_formula_sum   'Cs1 Na1 Eu1 Si1 As1 O1'
+_cell_volume   46080.32300844
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.99344623  0.36661977  0.19081409  1
+  Si  Si1  1  0.77859151  0.60851169  0.28260401  1
+  Cs  Cs2  1  0.92710054  0.57117730  0.77641368  1
+  As  As3  1  0.52671444  0.63910061  0.76429951  1
+  O  O4  1  0.90513766  0.10379027  0.49184930  1
+  Na  Na5  1  0.46530065  0.64745039  0.91338766  1

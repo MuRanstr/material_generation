@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_KZnHgGe2PCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00020987
+_cell_length_b   18.93425627
+_cell_length_c   15.73010349
+_cell_angle_alpha   81.33667474
+_cell_angle_beta   78.16978003
+_cell_angle_gamma   78.01907002
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KZnHgGe2PCl
+_chemical_formula_sum   'K1 Zn1 Hg1 Ge2 P1 Cl1'
+_cell_volume   283.39855708
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.81045330  0.13218462  0.55874503  1
+  P  P1  1  0.64771527  0.71136230  0.34775379  1
+  K  K2  1  0.74699485  0.12843527  0.20775101  1
+  Zn  Zn3  1  0.07794096  0.32876369  0.39202824  1
+  Hg  Hg4  1  0.53439933  0.55078292  0.93602037  1
+  Ge  Ge5  1  0.72325385  0.73653221  0.39950815  1
+  Ge  Ge6  1  0.25718454  0.12256696  0.76566976  1

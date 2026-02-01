@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaCaInGaSiNiSnHgAs3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00000000
+_cell_length_b   24.35622401
+_cell_length_c   19.97544479
+_cell_angle_alpha   80.70912692
+_cell_angle_beta   82.04327207
+_cell_angle_gamma   80.89526049
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCaInGaSiNiSnHgAs3O
+_chemical_formula_sum   'Ba1 Ca1 In1 Ga1 Si1 Ni1 Sn1 Hg1 As3 O1'
+_cell_volume   470.90288022
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.87532347  0.25677308  0.64486700  1
+  As  As1  1  0.36203840  0.06080533  0.44739681  1
+  Hg  Hg2  1  0.60383320  0.35797620  0.13107477  1
+  Ga  Ga3  1  0.91833168  0.85613954  0.71632576  1
+  As  As4  1  0.85007161  0.52882248  0.38079205  1
+  Ni  Ni5  1  0.64787000  0.14079250  0.74422359  1
+  As  As6  1  0.81228662  0.21742062  0.35494497  1
+  Si  Si7  1  0.13881612  0.44717795  0.81486571  1
+  In  In8  1  0.47438812  0.47078776  0.86093098  1
+  Sn  Sn9  1  0.07926072  0.39395291  0.02154971  1
+  O  O10  1  0.51344430  0.53792536  0.37167135  1
+  Ba  Ba11  1  0.30630672  0.90403461  0.98238111  1

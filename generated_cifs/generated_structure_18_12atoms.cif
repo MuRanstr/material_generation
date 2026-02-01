@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsLiYErMgCuAsPdAuS2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   125.82773626
+_cell_length_b   84.43301317
+_cell_length_c   20.50633049
+_cell_angle_alpha   75.19249554
+_cell_angle_beta   81.42699761
+_cell_angle_gamma   81.70871296
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsLiYErMgCuAsPdAuS2Cl
+_chemical_formula_sum   'Cs1 Li1 Y1 Er1 Mg1 Cu1 As1 Pd1 Au1 S2 Cl1'
+_cell_volume   206984.20326829
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.12589686  0.37975052  0.11240335  1
+  Au  Au1  1  0.58503735  0.84479314  0.40334299  1
+  Li  Li2  1  0.98889995  0.37439352  0.64177394  1
+  Cs  Cs3  1  0.95942032  0.03666509  0.00894760  1
+  Er  Er4  1  0.88291717  0.38928938  0.45914498  1
+  Mg  Mg5  1  0.51373041  0.95570523  0.34846663  1
+  Pd  Pd6  1  0.37639481  0.06168197  0.01972352  1
+  S  S7  1  0.76845968  0.13310952  0.16002792  1
+  Cu  Cu8  1  0.29772097  0.65905505  0.07553286  1
+  Y  Y9  1  0.62535203  0.95606893  0.24189128  1
+  As  As10  1  0.27696925  0.40748531  0.13748246  1
+  Cl  Cl11  1  0.65609324  0.18626431  0.66542280  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_CsBaFeCuSnHgGeMoPIrAuN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   124.53414330
+_cell_length_b   84.20307006
+_cell_length_c   20.28376961
+_cell_angle_alpha   72.57412105
+_cell_angle_beta   73.36083656
+_cell_angle_gamma   72.28489310
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBaFeCuSnHgGeMoPIrAuN
+_chemical_formula_sum
+'Cs1 Ba1 Fe1 Cu1 Sn1 Hg1 Ge1 Mo1 P1 Ir1 Au1 N1'
+_cell_volume   188801.91215019
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.15626080  0.73530221  0.63640594  1
+  Ir  Ir1  1  0.61541080  0.94373041  0.98113924  1
+  Mo  Mo2  1  0.15617152  0.32116851  0.63304079  1
+  Fe  Fe3  1  0.09635977  0.00328694  0.47210079  1
+  N  N4  1  0.00620311  0.32044563  0.90327591  1
+  Au  Au5  1  0.03352182  0.37806290  0.85948455  1
+  Hg  Hg6  1  0.53865516  0.43260074  0.68682671  1
+  Ge  Ge7  1  0.09712391  0.45932275  0.24988464  1
+  Ba  Ba8  1  0.46790370  0.03778018  0.43267334  1
+  Cu  Cu9  1  0.14533488  0.00515995  0.55529368  1
+  Sn  Sn10  1  0.75245345  0.96171898  0.06871565  1
+  Cs  Cs11  1  0.85565692  0.44969630  0.74918234  1

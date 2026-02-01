@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GdDyCdFeCu2Sb2TePOsKr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   0.99999998
+_cell_length_b   23.98313965
+_cell_length_c   20.00953674
+_cell_angle_alpha   81.61659620
+_cell_angle_beta   79.17538495
+_cell_angle_gamma   84.67034872
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdDyCdFeCu2Sb2TePOsKr
+_chemical_formula_sum   'Gd1 Dy1 Cd1 Fe1 Cu2 Sb2 Te1 P1 Os1 Kr1'
+_cell_volume   465.25528560
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.29791844  0.63910437  0.71747422  1
+  Sb  Sb1  1  0.69634032  0.76330346  0.67909461  1
+  Fe  Fe2  1  0.89661568  0.27734214  0.40695301  1
+  Cu  Cu3  1  0.70680189  0.20504729  0.61414802  1
+  Os  Os4  1  0.62465936  0.49312329  0.14349662  1
+  Dy  Dy5  1  0.87401742  0.26203761  0.45320517  1
+  Cu  Cu6  1  0.10308129  0.82504869  0.00343237  1
+  P  P7  1  0.99661380  0.90687060  0.92798924  1
+  Cd  Cd8  1  0.54114276  0.63045895  0.91563195  1
+  Te  Te9  1  0.58910823  0.08553544  0.27421045  1
+  Gd  Gd10  1  0.95843720  0.57414448  0.07269245  1
+  Kr  Kr11  1  0.62212759  0.16910678  0.56593621  1

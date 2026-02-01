@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CsEuBeSbSeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   68.03423580
+_cell_length_b   48.52176314
+_cell_length_c   16.14797783
+_cell_angle_alpha   79.96746512
+_cell_angle_beta   73.23384601
+_cell_angle_gamma   69.37395678
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsEuBeSbSeS
+_chemical_formula_sum   'Cs1 Eu1 Be1 Sb1 Se1 S1'
+_cell_volume   47611.96832268
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.32789761  0.92410761  0.10389277  1
+  Be  Be1  1  0.97359967  0.20074263  0.68527818  1
+  Cs  Cs2  1  0.81901288  0.19677499  0.86734855  1
+  Sb  Sb3  1  0.30108470  0.19099274  0.47218817  1
+  Eu  Eu4  1  0.48416138  0.57594830  0.34430897  1
+  Se  Se5  1  0.64700782  0.85867476  0.29716915  1

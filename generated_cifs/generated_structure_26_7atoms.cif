@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_TmGaAgHgPRhC
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00020985
+_cell_length_b   19.31054988
+_cell_length_c   15.93976307
+_cell_angle_alpha   79.15257114
+_cell_angle_beta   75.78986925
+_cell_angle_gamma   76.00705129
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmGaAgHgPRhC
+_chemical_formula_sum   'Tm1 Ga1 Ag1 Hg1 P1 Rh1 C1'
+_cell_volume   286.86431752
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.89687747  0.53814888  0.63540226  1
+  P  P1  1  0.01340653  0.71456903  0.08410054  1
+  Ag  Ag2  1  0.16296031  0.31465957  0.92418933  1
+  Tm  Tm3  1  0.28357214  0.15667777  0.96093726  1
+  Hg  Hg4  1  0.68315017  0.20652549  0.95662856  1
+  Ga  Ga5  1  0.24694747  0.29282257  0.74998140  1
+  Rh  Rh6  1  0.45291349  0.95034528  0.24062891  1

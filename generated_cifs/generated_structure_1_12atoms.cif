@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba3NaGdTiAlZnNiSnHgBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.45135238
+_cell_length_b   11.77542644
+_cell_length_c   12.16314411
+_cell_angle_alpha   83.52751950
+_cell_angle_beta   79.30896130
+_cell_angle_gamma   80.57384304
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3NaGdTiAlZnNiSnHgBr
+_chemical_formula_sum   'Ba3 Na1 Gd1 Ti1 Al1 Zn1 Ni1 Sn1 Hg1 Br1'
+_cell_volume   1584.15609057
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.79890424  0.96709400  0.31803793  1
+  Br  Br1  1  0.84498662  0.99440116  0.99427813  1
+  Gd  Gd2  1  0.00302085  0.51910514  0.67359483  1
+  Sn  Sn3  1  0.50097823  0.30429667  0.57352489  1
+  Al  Al4  1  0.50624865  0.69469184  0.85476387  1
+  Ba  Ba5  1  0.66448373  0.71278107  0.43723238  1
+  Ti  Ti6  1  0.96389759  0.44676030  0.03443656  1
+  Hg  Hg7  1  0.25351411  0.48569202  0.23768352  1
+  Ni  Ni8  1  0.20829186  0.63612723  0.64423972  1
+  Ba  Ba9  1  0.60236764  0.49479222  0.06009850  1
+  Zn  Zn10  1  0.58558524  0.06681167  0.26823425  1
+  Na  Na11  1  0.18199155  0.38939452  0.72351241  1

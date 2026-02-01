@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_NaYMgAlCuHgC
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   77.20798334
+_cell_length_b   54.62709785
+_cell_length_c   16.63789558
+_cell_angle_alpha   78.07126414
+_cell_angle_beta   78.92322115
+_cell_angle_gamma   82.11855312
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaYMgAlCuHgC
+_chemical_formula_sum   'Na1 Y1 Mg1 Al1 Cu1 Hg1 C1'
+_cell_volume   67030.74355552
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.13463669  0.66127020  0.27020052  1
+  Hg  Hg1  1  0.75217342  0.01525771  0.44023156  1
+  Al  Al2  1  0.55539811  0.19579974  0.37234423  1
+  Cu  Cu3  1  0.92206514  0.22199805  0.57957149  1
+  Y  Y4  1  0.94759655  0.24966042  0.74233103  1
+  Na  Na5  1  0.74397814  0.09913492  0.81459308  1
+  C  C6  1  0.42096353  0.95773274  0.27071342  1

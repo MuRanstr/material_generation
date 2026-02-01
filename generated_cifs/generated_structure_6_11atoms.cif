@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CsCe2GdErZnGaHgCO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   0.99999998
+_cell_length_b   22.94261411
+_cell_length_c   20.04228401
+_cell_angle_alpha   84.19687204
+_cell_angle_beta   77.75809728
+_cell_angle_gamma   77.93552404
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCe2GdErZnGaHgCO2
+_chemical_formula_sum   'Cs1 Ce2 Gd1 Er1 Zn1 Ga1 Hg1 C1 O2'
+_cell_volume   438.66475457
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.47645187  0.86715162  0.28453040  1
+  Ce  Ce1  1  0.60587573  0.24243809  0.36261430  1
+  Cs  Cs2  1  0.72159386  0.66533881  0.57181394  1
+  Hg  Hg3  1  0.23835176  0.43278223  0.92603588  1
+  Er  Er4  1  0.35309413  0.00107835  0.20050272  1
+  Zn  Zn5  1  0.09458447  0.31420872  0.62037981  1
+  Ga  Ga6  1  0.94321871  0.22577788  0.25092003  1
+  O  O7  1  0.04942950  0.38049489  0.49048385  1
+  Ce  Ce8  1  0.91002423  0.03076828  0.90092391  1
+  Gd  Gd9  1  0.09065378  0.23660745  0.51096451  1
+  O  O10  1  0.98394972  0.31892538  0.99978256  1

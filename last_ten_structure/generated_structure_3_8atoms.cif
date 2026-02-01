@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_BaNaHgBHPtWCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.67134710
+_cell_length_b   11.33536856
+_cell_length_c   10.67686844
+_cell_angle_alpha   73.33473927
+_cell_angle_beta   79.13767534
+_cell_angle_gamma   72.55193353
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNaHgBHPtWCl
+_chemical_formula_sum   'Ba1 Na1 Hg1 B1 H1 Pt1 W1 Cl1'
+_cell_volume   1282.80675897
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.70572442  0.31990170  0.11880131  1
+  Cl  Cl1  1  0.38596967  0.48215508  0.99329174  1
+  W  W2  1  0.08956032  0.87904966  0.76763606  1
+  H  H3  1  0.46743867  0.31248242  0.57804292  1
+  Pt  Pt4  1  0.27684662  0.19077863  0.44090086  1
+  Hg  Hg5  1  0.43134686  0.28661799  0.37005174  1
+  Ba  Ba6  1  0.77951455  0.95441180  0.48125017  1
+  Na  Na7  1  0.97280854  0.04152308  0.44811225  1

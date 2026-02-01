@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiCeGdEr2HfPdAuIKr2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00000001
+_cell_length_b   23.43390979
+_cell_length_c   20.50540543
+_cell_angle_alpha   73.44457307
+_cell_angle_beta   79.68915691
+_cell_angle_gamma   72.89909938
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCeGdEr2HfPdAuIKr2N
+_chemical_formula_sum   'Li1 Ce1 Gd1 Er2 Hf1 Pd1 Au1 I1 Kr2 N1'
+_cell_volume   437.85446417
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.84822387  0.45916641  0.33072725  1
+  Li  Li1  1  0.97307080  0.62721968  0.06171502  1
+  Hf  Hf2  1  0.73993027  0.12981021  0.05717577  1
+  Ce  Ce3  1  0.22845215  0.64365911  0.99946719  1
+  Pd  Pd4  1  0.22104019  0.85843015  0.16737016  1
+  Gd  Gd5  1  0.99222034  0.05837465  0.37159172  1
+  Er  Er6  1  0.22802120  0.61140919  0.18630154  1
+  I  I7  1  0.76649523  0.74292815  0.40857044  1
+  Kr  Kr8  1  0.44272915  0.99500322  0.88451213  1
+  Kr  Kr9  1  0.09183669  0.02997220  0.88462299  1
+  Er  Er10  1  0.83486938  0.29228264  0.83888656  1
+  N  N11  1  0.10795802  0.43556732  0.73145628  1

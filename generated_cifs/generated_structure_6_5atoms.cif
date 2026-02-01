@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_DyGaCuGeIr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   59.23324948
+_cell_length_b   42.86203048
+_cell_length_c   16.04070663
+_cell_angle_alpha   73.11294138
+_cell_angle_beta   78.17778408
+_cell_angle_gamma   81.43869578
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyGaCuGeIr
+_chemical_formula_sum   'Dy1 Ga1 Cu1 Ge1 Ir1'
+_cell_volume   37968.37776223
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.53146052  0.77781713  0.24136831  1
+  Dy  Dy1  1  0.99471211  0.14729187  0.20883487  1
+  Cu  Cu2  1  0.97104287  0.63315099  0.51452637  1
+  Ga  Ga3  1  0.82192445  0.58347273  0.68772149  1
+  Ir  Ir4  1  0.04263242  0.20150444  0.97281146  1

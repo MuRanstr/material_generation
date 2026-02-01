@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_DyScCrCuSiPSe2SBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00000002
+_cell_length_b   22.26458210
+_cell_length_c   19.07974434
+_cell_angle_alpha   82.57642739
+_cell_angle_beta   86.10502199
+_cell_angle_gamma   81.96969606
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyScCrCuSiPSe2SBr
+_chemical_formula_sum   'Dy1 Sc1 Cr1 Si1 Cu1 P1 Se2 S1 Br1'
+_cell_volume   416.57280743
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.36157694  0.75063401  0.78807205  1
+  Cr  Cr1  1  0.38698235  0.13291442  0.61084783  1
+  Se  Se2  1  0.89209241  0.61047447  0.97772932  1
+  Dy  Dy3  1  0.19750434  0.27615792  0.44036633  1
+  P  P4  1  0.77338839  0.84429598  0.21755384  1
+  Si  Si5  1  0.69359744  0.32248744  0.56505787  1
+  S  S6  1  0.00445352  0.36511290  0.17477043  1
+  Se  Se7  1  0.10416752  0.62221289  0.93200660  1
+  Cu  Cu8  1  0.67024469  0.83061254  0.81173480  1
+  Br  Br9  1  0.89347976  0.77381980  0.11528590  1

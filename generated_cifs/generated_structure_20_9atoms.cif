@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_EuErMg2CrSiIrRuO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   96.92481362
+_cell_length_b   66.85133473
+_cell_length_c   18.23766327
+_cell_angle_alpha   80.91474963
+_cell_angle_beta   77.01680836
+_cell_angle_gamma   80.58952617
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuErMg2CrSiIrRuO
+_chemical_formula_sum   'Eu1 Er1 Mg2 Cr1 Si1 Ru1 Ir1 O1'
+_cell_volume   112695.27368197
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.39383751  0.73773849  0.05237593  1
+  Ru  Ru1  1  0.12856095  0.58051181  0.75124860  1
+  Er  Er2  1  0.24820319  0.67931014  0.66414857  1
+  Cr  Cr3  1  0.05173641  0.35332444  0.87738168  1
+  Eu  Eu4  1  0.21683697  0.63130981  0.13118249  1
+  O  O5  1  0.46544656  0.66932881  0.22826563  1
+  Si  Si6  1  0.20681374  0.22209664  0.24839368  1
+  Mg  Mg7  1  0.75402832  0.49041700  0.40744081  1
+  Ir  Ir8  1  0.47160196  0.07995147  0.51517993  1

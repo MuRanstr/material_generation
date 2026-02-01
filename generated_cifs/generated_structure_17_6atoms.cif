@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NaEr2NbBSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00059293
+_cell_length_b   17.39736517
+_cell_length_c   14.74173069
+_cell_angle_alpha   79.45566406
+_cell_angle_beta   74.29726300
+_cell_angle_gamma   83.40799008
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaEr2NbBSe
+_chemical_formula_sum   'Na1 Er2 Nb1 B1 Se1'
+_cell_volume   242.29207512
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.64838856  0.62184465  0.70899582  1
+  Se  Se1  1  0.40348843  0.06424667  0.17259605  1
+  Er  Er2  1  0.97585338  0.25292259  0.21199366  1
+  Nb  Nb3  1  0.85372180  0.32209155  0.14996730  1
+  Na  Na4  1  0.03862711  0.34734416  0.19899830  1
+  Er  Er5  1  0.30915737  0.75092953  0.05116631  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CeDyTaAlFeNiHgPPdAuI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   125.84327313
+_cell_length_b   85.44632254
+_cell_length_c   20.51092529
+_cell_angle_alpha   78.25318906
+_cell_angle_beta   70.94142612
+_cell_angle_gamma   74.18769104
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeDyTaAlFeNiHgPPdAuI2
+_chemical_formula_sum   'Ce1 Dy1 Ta1 Al1 Fe1 Ni1 Hg1 P1 Pd1 Au1 I2'
+_cell_volume   198973.88203902
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.29662973  0.51275754  0.53477395  1
+  Ce  Ce1  1  0.33873981  0.66192585  0.58919740  1
+  Dy  Dy2  1  0.83739769  0.10806331  0.06272718  1
+  Al  Al3  1  0.86963964  0.51104718  0.45935693  1
+  I  I4  1  0.07137089  0.22032069  0.09433312  1
+  P  P5  1  0.52222514  0.18375112  0.64099324  1
+  Pd  Pd6  1  0.73776215  0.92896813  0.28665426  1
+  Fe  Fe7  1  0.03108959  0.61417168  0.35963413  1
+  I  I8  1  0.16306396  0.16604577  0.90698296  1
+  Hg  Hg9  1  0.15094094  0.32145271  0.48938230  1
+  Ta  Ta10  1  0.11452977  0.10319959  0.20488320  1
+  Au  Au11  1  0.02559381  0.15707624  0.06264742  1

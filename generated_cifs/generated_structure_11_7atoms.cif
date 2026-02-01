@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_BaNiAgHgSbPtKr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   77.40575959
+_cell_length_b   54.85936961
+_cell_length_c   15.99033737
+_cell_angle_alpha   87.52053052
+_cell_angle_beta   79.94860642
+_cell_angle_gamma   87.31872028
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNiAgHgSbPtKr
+_chemical_formula_sum   'Ba1 Ni1 Ag1 Hg1 Sb1 Pt1 Kr1'
+_cell_volume   66743.95250237
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Kr  Kr0  1  0.92814803  0.70144433  0.54095924  1
+  Ag  Ag1  1  0.59502447  0.20015684  0.91934103  1
+  Hg  Hg2  1  0.21833508  0.81976569  0.92921191  1
+  Pt  Pt3  1  0.67097580  0.66206473  0.55748498  1
+  Sb  Sb4  1  0.23781285  0.50493461  0.75855100  1
+  Ba  Ba5  1  0.51409841  0.98664182  0.46089402  1
+  Ni  Ni6  1  0.93383288  0.17764679  0.30328879  1

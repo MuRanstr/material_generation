@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_EuAlIrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   49.35239381
+_cell_length_b   35.45042147
+_cell_length_c   14.10058975
+_cell_angle_alpha   80.96627399
+_cell_angle_beta   74.67985833
+_cell_angle_gamma   78.17001015
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuAlIrO
+_chemical_formula_sum   'Eu1 Al1 Ir1 O1'
+_cell_volume   23149.21892088
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.78432715  0.15992796  0.28962365  1
+  Al  Al1  1  0.01698666  0.98680526  0.70839655  1
+  Ir  Ir2  1  0.96203601  0.30186987  0.35280856  1
+  O  O3  1  0.02390879  0.37603021  0.01048933  1

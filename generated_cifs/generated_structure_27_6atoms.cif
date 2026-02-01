@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CsErInTeMoC
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00059299
+_cell_length_b   17.98078919
+_cell_length_c   15.41509724
+_cell_angle_alpha   83.46297649
+_cell_angle_beta   77.43323712
+_cell_angle_gamma   75.18960788
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsErInTeMoC
+_chemical_formula_sum   'Cs1 Er1 In1 Te1 Mo1 C1'
+_cell_volume   261.20373877
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.04060110  0.31720957  0.07328301  1
+  C  C1  1  0.83030748  0.22611202  0.05008341  1
+  Er  Er2  1  0.39785674  0.44284290  0.83367383  1
+  Mo  Mo3  1  0.54142076  0.43716127  0.89960283  1
+  Te  Te4  1  0.47193381  0.64416647  0.58098948  1
+  Cs  Cs5  1  0.03033422  0.63786578  0.96061683  1

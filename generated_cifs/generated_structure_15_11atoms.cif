@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CaCeEuDyErMgHg2SbSeKr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   116.33284366
+_cell_length_b   78.69213806
+_cell_length_c   20.35998344
+_cell_angle_alpha   80.27381099
+_cell_angle_beta   76.76443494
+_cell_angle_gamma   78.01613792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCeEuDyErMgHg2SbSeKr
+_chemical_formula_sum   'Ca1 Ce1 Eu1 Dy1 Er1 Mg1 Hg2 Sb1 Se1 Kr1'
+_cell_volume   176031.65644861
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.38826710  0.79516339  0.18080872  1
+  Kr  Kr1  1  0.83028311  0.43575582  0.03702615  1
+  Sb  Sb2  1  0.97503257  0.62081391  0.07616443  1
+  Mg  Mg3  1  0.87128294  0.46392560  0.38889211  1
+  Ce  Ce4  1  0.83584249  0.84703237  0.31795228  1
+  Hg  Hg5  1  0.62952101  0.24965553  0.54446971  1
+  Dy  Dy6  1  0.16393884  0.13448603  0.28401497  1
+  Se  Se7  1  0.44125804  0.26600930  0.78865325  1
+  Hg  Hg8  1  0.70003939  0.14403653  0.53644514  1
+  Er  Er9  1  0.13682179  0.88570756  0.48885658  1
+  Ca  Ca10  1  0.89696151  0.90021652  0.49750593  1

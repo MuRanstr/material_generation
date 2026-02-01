@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MgScCdHgPtRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   68.75241162
+_cell_length_b   48.26113815
+_cell_length_c   15.22835159
+_cell_angle_alpha   82.18658127
+_cell_angle_beta   77.93580168
+_cell_angle_gamma   83.58501087
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgScCdHgPtRh
+_chemical_formula_sum   'Mg1 Sc1 Cd1 Hg1 Rh1 Pt1'
+_cell_volume   48772.66210681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.40900928  0.29444215  0.01092540  1
+  Cd  Cd1  1  0.36715651  0.83322716  0.82841253  1
+  Rh  Rh2  1  0.04636639  0.66915685  0.32608271  1
+  Mg  Mg3  1  0.82364762  0.34442684  0.61190450  1
+  Pt  Pt4  1  0.89608335  0.42317691  0.74579525  1
+  Sc  Sc5  1  0.81049907  0.79852462  0.47672203  1

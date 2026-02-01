@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NeNaEuDyMgGa2NiPdWCO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   125.40728591
+_cell_length_b   84.20526950
+_cell_length_c   20.87581062
+_cell_angle_alpha   77.24470664
+_cell_angle_beta   86.64221767
+_cell_angle_gamma   78.06535222
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NeNaEuDyMgGa2NiPdWCO
+_chemical_formula_sum   'Ne1 Na1 Eu1 Dy1 Mg1 Ga2 Ni1 Pd1 W1 C1 O1'
+_cell_volume   210340.54717048
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ne  Ne0  1  0.58205950  0.93382573  0.10694464  1
+  Pd  Pd1  1  0.43607554  0.00367341  0.28354731  1
+  O  O2  1  0.14937215  0.17973496  0.66740274  1
+  Dy  Dy3  1  0.76385093  0.38161054  0.82227421  1
+  Ni  Ni4  1  0.13542347  0.67567587  0.13027996  1
+  Na  Na5  1  0.21472280  0.75354439  0.54430044  1
+  Eu  Eu6  1  0.59742689  0.85358196  0.44765544  1
+  Mg  Mg7  1  0.42092234  0.84154719  0.72696018  1
+  W  W8  1  0.38445133  0.66325200  0.57488871  1
+  Ga  Ga9  1  0.19264154  0.93008041  0.45308378  1
+  Ga  Ga10  1  0.61124086  0.66838425  0.84801328  1
+  C  C11  1  0.73093873  0.85968077  0.14402539  1

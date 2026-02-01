@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_YCuRhAuO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   58.66061998
+_cell_length_b   41.41604904
+_cell_length_c   14.01062202
+_cell_angle_alpha   84.28106758
+_cell_angle_beta   77.89549259
+_cell_angle_gamma   81.84027835
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YCuRhAuO
+_chemical_formula_sum   'Y1 Cu1 Rh1 Au1 O1'
+_cell_volume   32858.95878467
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.59693742  0.77150500  0.46941322  1
+  O  O1  1  0.35039824  0.12276825  0.39737347  1
+  Y  Y2  1  0.86537611  0.49879837  0.30018693  1
+  Cu  Cu3  1  0.98941135  0.26549384  0.52925336  1
+  Rh  Rh4  1  0.91319484  0.82152134  0.18182462  1

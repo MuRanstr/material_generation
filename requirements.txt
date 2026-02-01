@@ -1,0 +1,10 @@
+ase==3.27.0
+beautifulsoup4==4.14.2
+matplotlib==3.10.7
+numpy==2.3.3
+pandas==2.3.3
+pymatgen==2025.10.7
+requests==2.32.5
+scipy==1.17.0
+selenium==4.40.0
+torch==2.10.0

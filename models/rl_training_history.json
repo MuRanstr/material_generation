@@ -1,0 +1,602 @@
+[
+    {
+        "episode": 1,
+        "actor_loss": 0.2853676050901413,
+        "critic_loss": 5075.2763671875,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 2,
+        "actor_loss": 0.28672764360904707,
+        "critic_loss": 14017.316259765625,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 3,
+        "actor_loss": 0.0011293677985667826,
+        "critic_loss": 67813.60625,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 4,
+        "actor_loss": 0.28174521327018737,
+        "critic_loss": 60148.79609375,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 5,
+        "actor_loss": 0.2818450450897217,
+        "critic_loss": 847.5846618652344,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 6,
+        "actor_loss": 0.29155467867851287,
+        "critic_loss": 24051.2810546875,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 7,
+        "actor_loss": 0.28005216717720033,
+        "critic_loss": 14300.6822265625,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 8,
+        "actor_loss": 0.26117233514785776,
+        "critic_loss": 413.6062316894531,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 9,
+        "actor_loss": -0.04399867892265306,
+        "critic_loss": 2669.3672119140624,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 10,
+        "actor_loss": 0.29355151057243345,
+        "critic_loss": 3007.021923828125,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 11,
+        "actor_loss": 0.27267826437950193,
+        "critic_loss": 685.3792205810547,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 12,
+        "actor_loss": 0.2774026954174042,
+        "critic_loss": 1057.6526672363282,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 13,
+        "actor_loss": 0.25641213059425355,
+        "critic_loss": 1283.4525390625,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 14,
+        "actor_loss": 0.2918037945032118,
+        "critic_loss": 481.7368499755859,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 15,
+        "actor_loss": 0.24577061712741824,
+        "critic_loss": 248.86083221435547,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 16,
+        "actor_loss": 0.2625676804780966,
+        "critic_loss": 103.14432067871094,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 17,
+        "actor_loss": 0.2818838059902191,
+        "critic_loss": 2.3250293850898744,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 18,
+        "actor_loss": 0.2918176376819611,
+        "critic_loss": 33.91871948242188,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 19,
+        "actor_loss": 0.24984522283077243,
+        "critic_loss": 14.569968986511231,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 20,
+        "actor_loss": 0.27889088869094963,
+        "critic_loss": 24.706070518493654,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 21,
+        "actor_loss": 0.28111058592796356,
+        "critic_loss": 251.25865631103517,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 22,
+        "actor_loss": 0.2866855305433276,
+        "critic_loss": 24.855087089538575,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 23,
+        "actor_loss": 0.30312150895595547,
+        "critic_loss": 1.7823406219482423,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 24,
+        "actor_loss": 0.25651828944683075,
+        "critic_loss": 6.8069360733032225,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 25,
+        "actor_loss": 0.2330433112382888,
+        "critic_loss": 21.386867237091064,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 26,
+        "actor_loss": 0.2787915432453156,
+        "critic_loss": 351.58887634277346,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 27,
+        "actor_loss": 0.2704910182952881,
+        "critic_loss": 2277.542022705078,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 28,
+        "actor_loss": 0.2728725248575211,
+        "critic_loss": 7667.258154296875,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 29,
+        "actor_loss": 0.2786406052112582,
+        "critic_loss": 3662.6730224609373,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 30,
+        "actor_loss": 0.27892255246639247,
+        "critic_loss": 143.04102935791016,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 31,
+        "actor_loss": 0.2741815990209579,
+        "critic_loss": 1092.0607635498047,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 32,
+        "actor_loss": 0.29662040352821356,
+        "critic_loss": 2899.745263671875,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 33,
+        "actor_loss": 0.2559298884868621,
+        "critic_loss": 383.96307373046875,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 34,
+        "actor_loss": 0.25136962831020354,
+        "critic_loss": 24.450234794616698,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 35,
+        "actor_loss": 0.2631652596592904,
+        "critic_loss": 560.6593780517578,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 36,
+        "actor_loss": 0.2538553589582442,
+        "critic_loss": 232.59627685546874,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 37,
+        "actor_loss": 0.27231694936752293,
+        "critic_loss": 14.591167783737182,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 38,
+        "actor_loss": 0.26127864718437194,
+        "critic_loss": 3.8979942560195924,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 39,
+        "actor_loss": 0.2855055463314059,
+        "critic_loss": 58.72666206359863,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 40,
+        "actor_loss": 0.27840288877487185,
+        "critic_loss": 113.12348937988281,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 41,
+        "actor_loss": 0.28011854171752937,
+        "critic_loss": 175.5873291015625,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 42,
+        "actor_loss": 0.2637345531582831,
+        "critic_loss": 111.49182434082032,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 43,
+        "actor_loss": 0.2639564752578735,
+        "critic_loss": 157.67998504638672,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 44,
+        "actor_loss": 0.2863427710533145,
+        "critic_loss": 40.05749111175537,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 45,
+        "actor_loss": 0.27514419734478,
+        "critic_loss": 113.41650009155273,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 46,
+        "actor_loss": 0.2958632040023801,
+        "critic_loss": 258.00189514160155,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 47,
+        "actor_loss": 0.28791545271873475,
+        "critic_loss": 1639.3153076171875,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 48,
+        "actor_loss": 0.280538122057915,
+        "critic_loss": 3821.557263183594,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 49,
+        "actor_loss": 0.28812131941318525,
+        "critic_loss": 7119.1197265625,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 50,
+        "actor_loss": 0.2892221027612692,
+        "critic_loss": 156.11860771179198,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 51,
+        "actor_loss": 0.2525990200042725,
+        "critic_loss": 48.23363361358643,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 52,
+        "actor_loss": 0.2786030596494674,
+        "critic_loss": 42.671773719787595,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 53,
+        "actor_loss": 0.28078663587570246,
+        "critic_loss": 236.65803146362305,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 54,
+        "actor_loss": 0.28540578067302674,
+        "critic_loss": 292.3310943603516,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 55,
+        "actor_loss": 0.24381231427192684,
+        "critic_loss": 287.16257934570314,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 56,
+        "actor_loss": 0.2821093499660492,
+        "critic_loss": 287.68602294921874,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 57,
+        "actor_loss": 0.2782506740093226,
+        "critic_loss": 312.2968032836914,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 58,
+        "actor_loss": 0.26843719482421874,
+        "critic_loss": 128.32666301727295,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 59,
+        "actor_loss": 0.27439470291137696,
+        "critic_loss": 398.1364379882813,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 60,
+        "actor_loss": 0.3102842968702316,
+        "critic_loss": 135.6876007080078,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 61,
+        "actor_loss": 0.28618642210960277,
+        "critic_loss": 684.6004791259766,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 62,
+        "actor_loss": 0.2940206569433215,
+        "critic_loss": 2950.2223510742188,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 63,
+        "actor_loss": 0.29118773698806777,
+        "critic_loss": 729.48095703125,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 64,
+        "actor_loss": 0.29096114277839646,
+        "critic_loss": 154.00934753417968,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 65,
+        "actor_loss": 0.29128776550292984,
+        "critic_loss": 365.9175750732422,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 66,
+        "actor_loss": 0.27936945676803615,
+        "critic_loss": 441.4801483154297,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 67,
+        "actor_loss": 0.2953173780441283,
+        "critic_loss": 87.26053161621094,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 68,
+        "actor_loss": 0.27096823453903196,
+        "critic_loss": 286.5103958129883,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 69,
+        "actor_loss": 0.2999098539352417,
+        "critic_loss": 383.2316497802734,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 70,
+        "actor_loss": 0.29487667560577363,
+        "critic_loss": 754.9814453125,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 71,
+        "actor_loss": 0.28760398268699633,
+        "critic_loss": 3051.892785644531,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 72,
+        "actor_loss": 0.2716315007209779,
+        "critic_loss": 308.3855773925781,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 73,
+        "actor_loss": 0.2913111853599549,
+        "critic_loss": 134.70550231933595,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 74,
+        "actor_loss": 0.26860328435897857,
+        "critic_loss": 306.6051078796387,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 75,
+        "actor_loss": 0.31020445585250866,
+        "critic_loss": 1517.091845703125,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 76,
+        "actor_loss": 0.26199398875236496,
+        "critic_loss": 53.336243343353274,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 77,
+        "actor_loss": 0.28446221351623535,
+        "critic_loss": 878.7574890136718,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 78,
+        "actor_loss": 0.2657593140006064,
+        "critic_loss": 35.20208187103272,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 79,
+        "actor_loss": 0.30997662425041206,
+        "critic_loss": 998.9790771484375,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 80,
+        "actor_loss": 0.25716080725193036,
+        "critic_loss": 25.745532608032228,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 81,
+        "actor_loss": 0.2745427429676056,
+        "critic_loss": 270.57908782958987,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 82,
+        "actor_loss": 0.274775630235672,
+        "critic_loss": 29.22223472595215,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 83,
+        "actor_loss": 0.2900004678964615,
+        "critic_loss": 79.78195190429688,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 84,
+        "actor_loss": 0.2763082200288773,
+        "critic_loss": 3.3210424423217773,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 85,
+        "actor_loss": 0.3062050950527194,
+        "critic_loss": 59.45553894042969,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 86,
+        "actor_loss": 0.23766198694705967,
+        "critic_loss": 26.187968444824218,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 87,
+        "actor_loss": 0.27326988339424074,
+        "critic_loss": 58.79799308776855,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 88,
+        "actor_loss": 0.302010146379471,
+        "critic_loss": 29.42392292022705,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 89,
+        "actor_loss": 0.29098322689533235,
+        "critic_loss": 8.776426887512207,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 90,
+        "actor_loss": 0.2891456222534181,
+        "critic_loss": 8.413629531860352,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 91,
+        "actor_loss": 0.2833679151535037,
+        "critic_loss": 3.399212521314621,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 92,
+        "actor_loss": 0.28187178730964657,
+        "critic_loss": 76.67861747741699,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 93,
+        "actor_loss": 0.24628769814968104,
+        "critic_loss": 5.082716417312622,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 94,
+        "actor_loss": 0.2971655434370035,
+        "critic_loss": 1.8858876764774322,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 95,
+        "actor_loss": 0.26860210835933673,
+        "critic_loss": 73.9726173400879,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 96,
+        "actor_loss": 0.26411442160606385,
+        "critic_loss": 26.431792640686034,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 97,
+        "actor_loss": 0.2952987742424014,
+        "critic_loss": 123.06162490844727,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 98,
+        "actor_loss": 0.2909032702445984,
+        "critic_loss": 4.555331516265869,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 99,
+        "actor_loss": 0.2502856296300891,
+        "critic_loss": 5.498820018768311,
+        "avg_reward": -5.0
+    },
+    {
+        "episode": 100,
+        "actor_loss": 0.272282506711781,
+        "critic_loss": 13.27178316116333,
+        "avg_reward": -5.0
+    }
+]

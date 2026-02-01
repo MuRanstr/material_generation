@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CaCuNiHg2GeBSbAs
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.46574370
+_cell_length_b   11.62588435
+_cell_length_c   12.08921337
+_cell_angle_alpha   81.93062026
+_cell_angle_beta   82.39810095
+_cell_angle_gamma   78.60552607
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCuNiHg2GeBSbAs
+_chemical_formula_sum   'Ca1 Cu1 Ni1 Hg2 Ge1 B1 Sb1 As1'
+_cell_volume   1554.97994710
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.24855635  0.89757884  0.65998220  1
+  Hg  Hg1  1  0.19169942  0.15747441  0.58661765  1
+  Ni  Ni2  1  0.90078616  0.28762794  0.08439012  1
+  Ge  Ge3  1  0.00092404  0.13563599  0.66372186  1
+  Sb  Sb4  1  0.42352483  0.51649582  0.06818785  1
+  B  B5  1  0.97716194  0.07999520  0.10163154  1
+  Cu  Cu6  1  0.26231590  0.42041683  0.84806836  1
+  Ca  Ca7  1  0.47456846  0.20266201  0.41537553  1
+  Hg  Hg8  1  0.67687094  0.48017314  0.30794781  1

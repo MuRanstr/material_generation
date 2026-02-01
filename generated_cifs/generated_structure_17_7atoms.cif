@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MgTaInSnTeRhAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   78.59911951
+_cell_length_b   53.85260534
+_cell_length_c   16.37838554
+_cell_angle_alpha   84.65122853
+_cell_angle_beta   75.97636174
+_cell_angle_gamma   79.45726671
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTaInSnTeRhAu
+_chemical_formula_sum   'Mg1 Ta1 In1 Sn1 Te1 Rh1 Au1'
+_cell_volume   66037.37711740
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.29175383  0.16906080  0.02791713  1
+  Mg  Mg1  1  0.72654790  0.60600024  0.81662834  1
+  Sn  Sn2  1  0.50157952  0.30370104  0.15178651  1
+  Ta  Ta3  1  0.39084107  0.01225888  0.32606995  1
+  Au  Au4  1  0.19946961  0.70546669  0.18068618  1
+  In  In5  1  0.70532715  0.08657244  0.88954341  1
+  Te  Te6  1  0.19536866  0.26309657  0.27628145  1

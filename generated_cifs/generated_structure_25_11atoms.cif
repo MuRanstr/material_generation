@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CsBaGdInHg2B2Au2S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   115.83681787
+_cell_length_b   77.79518047
+_cell_length_c   20.48874092
+_cell_angle_alpha   78.13204732
+_cell_angle_beta   75.12165320
+_cell_angle_gamma   83.42461480
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBaGdInHg2B2Au2S
+_chemical_formula_sum   'Cs1 Ba1 Gd1 In1 Hg2 B2 Au2 S1'
+_cell_volume   174258.56665172
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.22805645  0.47395265  0.53850687  1
+  Hg  Hg1  1  0.93029642  0.42658725  0.23891068  1
+  Au  Au2  1  0.16909416  0.26305798  0.75370800  1
+  Hg  Hg3  1  0.76470053  0.14053917  0.09429950  1
+  S  S4  1  0.07535296  0.70357156  0.15774983  1
+  Au  Au5  1  0.80421650  0.38757855  0.71531200  1
+  Ba  Ba6  1  0.94959235  0.75711584  0.00201498  1
+  Cs  Cs7  1  0.09027474  0.13074668  0.26861778  1
+  Gd  Gd8  1  0.76523864  0.52416235  0.62648737  1
+  B  B9  1  0.78242898  0.74473065  0.10629352  1
+  B  B10  1  0.55144131  0.63670450  0.02792647  1

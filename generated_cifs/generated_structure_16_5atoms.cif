@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_CeScTaZnS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   1.00097513
+_cell_length_b   17.04721137
+_cell_length_c   14.62907696
+_cell_angle_alpha   82.66875300
+_cell_angle_beta   78.17503536
+_cell_angle_gamma   79.39882591
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeScTaZnS
+_chemical_formula_sum   'Ce1 Sc1 Ta1 Zn1 S1'
+_cell_volume   239.10930547
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.03467928  0.20758168  0.92859578  1
+  Sc  Sc1  1  0.84019732  0.27486783  0.17027695  1
+  S  S2  1  0.37999573  0.38964182  0.49470398  1
+  Ta  Ta3  1  0.79306459  0.50187266  0.53008306  1
+  Zn  Zn4  1  0.03679200  0.26734895  0.17297824  1
